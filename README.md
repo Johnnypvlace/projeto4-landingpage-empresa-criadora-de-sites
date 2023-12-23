@@ -1,0 +1,2 @@
+# projeto4-landingpage-empresa-criadora-de-sites
+ Projeto feito com base no Curso "Curso Webmaster Front-End Completo" da Danki Code, e o Exercício é o do Bloco "Projetos Práticos #2 e #3" do mesmo Curso. A proposta inicial era criar uma landing page para promover uma Empresa desenvolvedora de Software. No entanto, decidi optar por criar uma landing page para promover uma Empresa especializada na Criação de Websites
