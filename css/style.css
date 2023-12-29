@@ -92,19 +92,44 @@ header li a{
     background-color: #354b74;
     padding: 20px 2%;
     width: 100%;
-    height: 650px;
+    height: 464px;
 }
 
-.chamada-2 p{
-    margin-top: 50px;
+section.container-mid .chamada-2{
+    max-width: 800px;
+}
+
+.texto-sessao1{
     float: left;
-    font-size: 25px;
-    padding: 30px;
     color: white;
-    width: 60%;
-    height: 200px;
-    /*background: red;
-    opacity: 30%;*/
+    width: 50%;
+}
+
+.texto-sessao1 h1{
+    font-weight: lighter;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto-sessao1 ul{
+    margin-top: 20px;
+    list-style-position: inside;
+}
+
+.texto-sessao1 ul li{
+    float: left;
+    width: 100%;
+}
+
+.device{
+    background-image: url(../images/device.png);
+    float: right;
+    height: 100vh;
+    width: 35%;
+    margin-top: -130px;
+    position: relative;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .btn1-texto{
@@ -121,16 +146,7 @@ header li a{
     border-radius: 30px;
 }
 
-.foto1{
-    background-image: url(../images/device.png);
-    float: right;
-    height: 100vh;
-    width: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-top: -600px;
-}
+
 
 
 
@@ -149,7 +165,7 @@ header li a{
     margin-top: 150px;
     text-align: center;
     color: #354b74;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: lighter;
 }
 
@@ -158,7 +174,7 @@ header li a{
     margin-top: -100px;
     text-align: center;
     color: #354b74;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .container-final .device_0{
