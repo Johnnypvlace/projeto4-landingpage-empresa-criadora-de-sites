@@ -92,17 +92,15 @@ header li a{
     background-color: #354b74;
     padding: 20px 2%;
     width: 100%;
-    height: 464px;
 }
 
-section.container-mid .chamada-2{
-    max-width: 800px;
-}
 
 .texto-sessao1{
+    position: relative;
     float: left;
+    left: 130px;
     color: white;
-    width: 50%;
+    width: 45%;
 }
 
 .texto-sessao1 h1{
@@ -121,48 +119,42 @@ section.container-mid .chamada-2{
     width: 100%;
 }
 
+.texto-sessao1 p{
+    margin-top: 130px;
+    width: 100%;
+}
+
 .device{
     background-image: url(../images/device.png);
     float: right;
-    height: 100vh;
-    width: 35%;
-    margin-top: -130px;
-    position: relative;
-    background-size: 100% auto;
+    position: static;
+    height: 39vh;
+    width: 37%;
+    background-size: 90% auto;
     background-repeat: no-repeat;
 }
 
 .btn1-texto{
-    background-color: #354b74;
+    background-color: #F4D32C;
     width: 165px;
     height: 44px;
     position: absolute;
-    color: #ebd242;
+    color: white;
     cursor: pointer;
-    margin-top: -30px;
+    margin-top: 20px;
     text-align: center;
     line-height: 44px;
-    margin-left: 30px;
+    margin-left: -10px;
     border-radius: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
 .container-final {
-    position: relative;
+    position: absolute;
     margin: 0 auto;
 }
 
 .container-final h1{
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: center;
     color: #354b74;
     font-size: 30px;
@@ -180,15 +172,15 @@ section.container-mid .chamada-2{
 .container-final .device_0{
     background-image: url(../images/device_0.png);
     background-position: center;
-    height: 70vh; /* Ajuste a altura conforme necessário */
-    width: 80%; /* Defina uma largura inicial em relação ao elemento pai */
-    max-width: 100%; /* Garante que a largura não ultrapasse a largura do elemento pai */
+    height: 70vh;
+    width: 80%; 
+    max-width: 100%; 
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 5%);
+    transform: translate(-50%, 13%);
 }
 
 
@@ -196,25 +188,116 @@ section.container-mid .chamada-2{
 
     .container-chamada-1{
         display: block;
+        margin-top: 250px;
         text-align: center;
         width: 680px;
         height: 283px;
     }
 
-}
-
-/*
-@media (max-width: 1414px) {
-    .chamada-2 p {
+    .chamada-2{
         float: none;
-        max-width: 100%; 
+        font-size: 15px;
+
     }
 
-    .foto1 {
-        position: static; 
-        height: auto; 
-        top: auto;
-        bottom: auto;
+    .btn1-texto{
+        width: 125px;
+        height: 44px;
+    }
+
+    .container-mid{
+        height: 420px;
+    }
+
+    .texto-sessao1{
+        top: -70px;
+        width: 70%;
+        left: 105px;
+    }
+
+    .device{
+        margin-top: -70px;
+        height: 29vh;
+        width: 27%;
     }
 }
-*/
+
+
+@media screen and (max-width: 950px){
+
+    .container-chamada-1{
+        display: block;
+        margin-top: 250px;
+        text-align: center;
+        width: 630px;
+        height: 283px;
+    }
+
+
+}
+
+@media screen and (max-width: 880px){
+
+    .container-chamada-1{
+        display: block;
+        margin-top: 250px;
+        text-align: center;
+        width: 590px;
+        height: 283px;
+    }
+
+
+}
+
+@media screen and (max-width: 810px){
+
+    .container-chamada-1{
+        display: block;
+        margin-top: 250px;
+        text-align: center;
+        width: 540px;
+        height: 283px;
+    }
+
+
+}
+
+@media screen and (max-width: 740px){
+
+    .container-chamada-1{
+        margin-top: 250px;
+        display: block;
+        text-align: center;
+        width: 490px;
+        height: 283px;
+    }
+}
+
+@media screen and (max-width: 670px){
+
+    .container-chamada-1{
+        margin-top: 250px;
+        display: block;
+        text-align: center;
+        width: 440px;
+        height: 283px;
+    }
+
+    .container-chamada-1 h1{
+        font-size: 28px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    .container-chamada-1{
+        display: block;
+        text-align: center;
+        width: 390px;
+        height: 283px;
+    }
+
+
+}
+
