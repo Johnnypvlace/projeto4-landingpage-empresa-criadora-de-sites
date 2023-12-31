@@ -60,7 +60,7 @@ header li a{
 
 .container-chamada-1{
     padding: 30px;
-    margin: 140px;
+    margin: 100px 10px;
     margin-top: 250px;
     margin-right: 100px;
     float: right;
@@ -93,7 +93,6 @@ header li a{
     padding: 20px 2%;
     width: 100%;
 }
-
 
 .texto-sessao1{
     position: relative;
@@ -151,6 +150,7 @@ header li a{
 .container-final {
     position: absolute;
     margin: 0 auto;
+    text-align: center;
 }
 
 .container-final h1{
@@ -185,6 +185,32 @@ header li a{
 
 .container-equipe{
     width: 100%;
+    color: white;
+}
+
+.container-equipe .time{
+    background-color: green;
+    width: 50%;
+    float: left;
+    padding: 100px 10%;
+    height: 30vh;
+}
+
+.container-equipe .founder{
+    background-image: url(../images/founder.png);
+    height: 140px;
+    float: right;
+    width: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-equipe .fundador{
+    background-color: green;
+    width: 50%;
+    float: right;
+    padding: 100px 10%;
+    height: 30vh;
 }
 
 
