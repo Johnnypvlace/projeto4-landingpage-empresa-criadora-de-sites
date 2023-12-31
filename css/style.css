@@ -61,7 +61,7 @@ header li a{
 .container-chamada-1{
     padding: 30px;
     margin: 140px;
-    margin-top: 300px;
+    margin-top: 250px;
     margin-right: 100px;
     float: right;
     width: 780px;
@@ -183,6 +183,15 @@ header li a{
     transform: translate(-50%, 13%);
 }
 
+.container-equipe{
+    width: 100%;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 1024px){
 
@@ -222,7 +231,6 @@ header li a{
     }
 }
 
-
 @media screen and (max-width: 950px){
 
     .container-chamada-1{
@@ -232,8 +240,6 @@ header li a{
         width: 630px;
         height: 283px;
     }
-
-
 }
 
 @media screen and (max-width: 880px){
@@ -246,7 +252,6 @@ header li a{
         height: 283px;
     }
 
-
 }
 
 @media screen and (max-width: 810px){
@@ -258,8 +263,6 @@ header li a{
         width: 540px;
         height: 283px;
     }
-
-
 }
 
 @media screen and (max-width: 740px){
@@ -271,8 +274,7 @@ header li a{
         width: 490px;
         height: 283px;
     }
-}
-
+    
 @media screen and (max-width: 670px){
 
     .container-chamada-1{
@@ -297,7 +299,4 @@ header li a{
         width: 390px;
         height: 283px;
     }
-
-
 }
-
