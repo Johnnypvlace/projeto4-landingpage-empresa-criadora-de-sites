@@ -148,7 +148,7 @@ header li a{
 }
 
 .container-final {
-    position: absolute;
+    position: relative;
     margin: 0 auto;
     text-align: center;
 }
@@ -177,19 +177,21 @@ header li a{
     max-width: 100%; 
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 13%);
+    margin-top: 10px;
+    transform: translate(-50%, -20%);
 }
 
 .container-equipe{
     width: 100%;
     color: white;
+    margin-top: -200px;
 }
 
 .container-equipe .time{
-    background-color: green;
+    background-color: #354b74;
     width: 50%;
     float: left;
     padding: 100px 10%;
@@ -198,15 +200,18 @@ header li a{
 
 .container-equipe .founder{
     background-image: url(../images/founder.png);
-    height: 140px;
-    float: right;
-    width: 140px;
+    height: 70px;
+    width: 70px;
+    float: left;
+    margin-top: -75px;
+    margin-left: 180px;
+    position: relative;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .container-equipe .fundador{
-    background-color: green;
+    background-color:#354b74;
     width: 50%;
     float: right;
     padding: 100px 10%;
