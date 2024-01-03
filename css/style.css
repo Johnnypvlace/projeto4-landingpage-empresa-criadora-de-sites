@@ -218,6 +218,52 @@ header li a{
     height: 30vh;
 }
 
+.container-contato{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.contato{
+    width: 50%;
+    height: 150px;
+    float: left;
+    background-color: #446094;
+    height: 600px;
+}
+
+.contato h2{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.contato p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    width: 70%;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.visita{
+    width: 50%;
+    height: 150px;
+    float: right;
+    background-color: #446094;
+    height: 600px;
+
+}
+
+.visita h2{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: lighter;
+}
 
 
 
@@ -305,7 +351,7 @@ header li a{
         width: 490px;
         height: 283px;
     }
-    
+}   
 @media screen and (max-width: 670px){
 
     .container-chamada-1{
@@ -329,5 +375,18 @@ header li a{
         text-align: center;
         width: 390px;
         height: 283px;
+    }
+}
+
+
+@media screen and (max-width: 930px){
+
+    .time{
+        width: 100%;
+    }
+
+    .fundador{
+        width: 100%;
+        
     }
 }
