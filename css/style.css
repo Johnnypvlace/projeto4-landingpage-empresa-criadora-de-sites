@@ -226,10 +226,10 @@ header li a{
 
 .contato{
     width: 50%;
-    height: 150px;
     float: left;
     background-color: #446094;
     height: 600px;
+    padding-left: 10px;
 }
 
 .contato h2{
@@ -249,10 +249,42 @@ header li a{
 
 }
 
+.form form input[type=text]{
+    display: block;
+    align-items: center;
+    width: 100%;
+    max-width: 480px;
+    height: 58px;
+    margin: 15px auto;
+    line-height: 58px;
+    padding: 15px;
+    border: 1px solid rgb(200,200,200);
+
+}
+
+.form form textarea{
+    width: 100%;
+    margin-top: 8px;
+    max-width: 480px;
+    padding: 15px;
+    border: 1px solid rgb(200,200,200);
+    height: 160px;
+}
+
+.form form input[type=submit]{
+    border: 0;
+    background-color: #F4D32C;
+    width: 165px;
+    height: 44px;
+    font-size: 13px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+}
 
 .visita{
     width: 50%;
-    height: 150px;
     float: right;
     background-color: #446094;
     height: 600px;
@@ -260,14 +292,37 @@ header li a{
 }
 
 .visita h2{
-    margin-top: 50px;
     font-size: 30px;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 25px;
     font-weight: lighter;
 }
 
+.mapa{
+    float: center;
+    margin-top: 10px;
+    width: 480px;
+    height: 480px;
+    background-color: white;
+    border: 5px solid rgb(200,200,200);
 
+}
 
+footer{
+    padding: 40px 2%;
+    background-color: #192123;
+    color: white;
+    font-size: 14px;
+}
 
+footer p:nth-of-type(1){
+    float: left;
+}
+
+footer p:nth-of-type(2){
+    float: right;
+}
 
 
 @media screen and (max-width: 1024px){
@@ -305,6 +360,11 @@ header li a{
         margin-top: -70px;
         height: 29vh;
         width: 27%;
+    }
+
+    .chamada-2{
+    margin-top: 70px;
+
     }
 }
 
@@ -376,17 +436,26 @@ header li a{
         width: 390px;
         height: 283px;
     }
-}
 
-
-@media screen and (max-width: 930px){
+    .device{
+        display: none;
+    }
 
     .time{
         width: 100%;
     }
-
+    
     .fundador{
         width: 100%;
-        
     }
+
+    .contato{
+        width: 100%;
+    }
+
+    .visita{
+        width: 100%;
+    }
+
+
 }
